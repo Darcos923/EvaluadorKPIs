@@ -168,6 +168,8 @@ if uploaded:
                 df[df.Comparativa == b][kpi].dropna(), bins=30, alpha=0.5, label=f"B{b}"
             )
         ax.set_title(kpi)
+        ax.set_xlabel("Rango de valores")
+        ax.set_ylabel("Frecuencia")
         ax.legend(fontsize=6)
         st.pyplot(fig)
 
