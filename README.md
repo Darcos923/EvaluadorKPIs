@@ -1,0 +1,2 @@
+# EvaluadorKPIs
+Evaluador para StrategyQuant
